@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import br.com.ucsal.olimpiadas.model.Participante;
+import br.com.ucsal.olimpiadas.model.Prova;
+import br.com.ucsal.olimpiadas.model.Questao;
+import br.com.ucsal.olimpiadas.model.Resposta;
+import br.com.ucsal.olimpiadas.model.Tentativa;
+
 public class App {
 
 	static long proximoParticipanteId = 1;
