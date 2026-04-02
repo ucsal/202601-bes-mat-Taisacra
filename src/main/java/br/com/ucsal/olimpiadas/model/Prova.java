@@ -1,9 +1,15 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.model;
 
 public class Prova {
 
 	private long id;
 	private String titulo;
+	
+	public Prova() {}
+
+    public Prova(String titulo) {
+        this.titulo = titulo;
+    }
 
 	public long getId() {
 		return id;

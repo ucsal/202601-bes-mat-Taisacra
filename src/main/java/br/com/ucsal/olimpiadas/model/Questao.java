@@ -1,4 +1,4 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.model;
 
 import java.util.Arrays;
 
@@ -6,11 +6,9 @@ public class Questao {
 
 	private long id;
 	private long provaId;
-
 	private String enunciado;
 	private String[] alternativas = new String[5];
 	private char alternativaCorreta;
-
 	private String fenInicial;
 
 	public String getFenInicial() {

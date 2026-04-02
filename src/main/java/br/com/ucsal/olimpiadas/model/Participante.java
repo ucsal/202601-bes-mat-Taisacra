@@ -1,10 +1,17 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.model;
 
 public class Participante {
 	private long id;
 	private String nome;
 	private String email;
+	
+	public Participante() {}
 
+	public Participante(String nome, String email) {
+		this.nome = nome;
+	    this.email = email;
+	}
+	 
 	public long getId() {
 		return id;
 	}
